@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Servicios - Ezequiel Bustamante</title>
+    <link rel="shortcut icon" href="../img/EB.png">
+        <!-- VINCULAR A CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  </head>
+
+
+
+  <body>
+
+    <!-- NAVBAR BOOTSTRAP -->
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand brandTitle text-white" id="brandTitle" href="../index.html">Ezequiel Bustamante</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="quiensoy.html">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+<main class="mainContacto">
+  <section class="sectionForm ">
+    <fieldset class="fieldset">
+      <legend>Datos Personales</legend>
+  <form action="envio.php">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" placeholder="Tu Nombre"><br>
+    <label for="email">Correo Electronico</label>
+    <input type="text" id="email" placeholder="ejemplo@hotmail.com"><br>
+    <label for="gender">Genero</label>
+    <select name="Genero" id="Gender">
+      <option value="femenino">Femenino</option>
+      <option value="masculino">Masculino</option></select>
+    </fieldset>
+    <fieldset class="fieldset">
+      <legend>Interes</legend>
+      <label for="entrenar">Plan de entrenamiento</label>
+      <input type="checkbox" id="entrenar" value="entrenamiento" ><br>
+      <label for="alimentar">Plan de alimentacion</label>
+      <input type="checkbox" id="alimentar" value="alimentacion"><br>
+      <label for="personaltrainner">Personal Trainner</label>
+      <input type="checkbox" id="personaltrainner" value="personaltrain">
+    </fieldset>
+    <fieldset class="fieldset">
+      <legend>Consultar</legend>
+      <label for="consultar">Escribe tu consulta</label><br>
+      <textarea name="consultas" id="consultar" cols="30" rows="10" placeholder="Escribe aqui..."></textarea>
+      <br><input type="reset" value="Cancelar">
+      <input type="submit" value="Enviar">
+    </fieldset>
+
+  </form>
+  </section>
+</main>
+  
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/ezequiel.bustamante.357" target="_blank" role="button">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/eze.bustamante/" target="_blank" role="button">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <!-- Whatsapp -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://api.whatsapp.com/send/?phone=5493516975118&text&app_absent=0"
+      target="_blank" role="button">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+    </section>
+    <!-- Section: Social media -->
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
