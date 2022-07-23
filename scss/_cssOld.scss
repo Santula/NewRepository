@@ -1,0 +1,77 @@
+
+*{padding: 0px; margin: 0px}
+body{background-image: url(../img/bg-black.png); color: whitesmoke;}
+
+main {text-align: center; margin: 40px 20px}
+
+.firstImg{
+  margin:  2rem 4rem;
+  border-style: solid;
+  border-color: whitesmoke;
+  width: 300px;
+}
+
+.secondImg{
+  margin:  2rem 4rem;
+  border-style: solid;
+  border-color: whitesmoke;
+  width: 300px;
+}
+
+
+.p1,.p2{padding-bottom: 60px; margin: auto 100px}
+.p3{margin: auto 300px}
+
+
+main h2{font-size: 25px;}
+
+.firstContainer{width: 99%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+padding-top: 40px;
+}
+
+.secondContainer{padding-top: 80px;}
+
+
+.cards{display: flex;}
+.cardImg{width: 30%;}
+.pProducts{margin: auto 100px 30px}
+
+
+.planes{display: flex;}
+.imgServ{width: 70%;}
+.pServ{width: 30%; text-align: center;}
+.pServ{padding-bottom: 60px; margin: auto}
+.prueba{display: flex;}
+
+
+
+.card{background-color: black;}
+.card{margin: auto;}
+
+/*.quienSoy{color: black;}
+.card{margin: auto;}*/
+ .list-group-item{color: whitesmoke;}
+
+
+.list-group-item{border-bottom-color: whitesmoke;}
+.card{border-block-color: white; border-bottom-color: whitesmoke;}
+.card-body{border-width: 0px;}
+
+
+
+.mainContacto{
+  display:inline-flex;
+  padding: 9rem ; margin: 0rem;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  background-color: rgba(231, 249, 239, .2);
+}
+
+.fieldset{background-color: whitesmoke;}
+
+.sectionForm{width: 50%;}
+.fieldset{padding-bottom: 15px; padding-top: 15px;}
+

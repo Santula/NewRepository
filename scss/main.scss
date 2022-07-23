@@ -1,0 +1,84 @@
+// IMPORTS
+@import "_vars";
+@import "_fonts";
+@import "navBar";
+@import "commons";
+
+*{padding: 0px; margin: 0px}
+
+// INDEX
+
+// mini nesting
+body{background-image: url(../img/bg-black.png); color: whitesmoke;
+
+    main{text-align: center; margin: 40px 20px
+
+        h2{font-size: 25px;}
+        }}
+// finaliza mini Nesting
+
+.firstImg,.secondImg{
+    width: 300px;
+    margin:  2rem 4rem;
+    border-style: solid;
+    color: $mainColor}
+
+
+.p1,.p2{padding-bottom: 60px; margin: auto 100px}
+.p3{margin: auto 300px}
+
+.firstContainer{width: 99%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 40px;
+    }
+    
+.secondContainer{padding-top: 80px;}
+// Finaliza INDEX
+
+
+
+// Página Productos
+.cards{display: flex; padding-top: 25px;}
+.cardImg{width: 50%;}
+.pProducts{margin: auto 100px 30px}
+// Finaliza Productos
+          
+
+
+// Página Servicios
+.planes{display: flex;}
+.h2Serv{ padding-top: 35px;}
+.imgServ{width: 70%;}
+.pServ{width: 30%; text-align: center; padding-bottom: 60px; margin: auto}
+// Finaliza página Servicios
+
+
+
+// Página Sobre Mí   !!! FALTA AGREGAR PADDING/MARGIN TOP QUE NO PUEDO  !!!
+.quiensoy{margin-top:100px;}
+.card{background-color: black;}
+.card{margin: auto;}
+.list-group-item{color: whitesmoke;}
+.list-group-item{border-bottom-color: whitesmoke;}
+.card{border-block-color: white; border-bottom-color: whitesmoke;}
+.card-body{border-width: 0px;}
+// Finaliza página sobre mí
+
+
+
+// Página Contacto
+.mainContacto{
+    display:inline-flex;
+    padding: 9rem ; margin: 0rem;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    background-color: rgba(231, 249, 239, .2);
+  }
+  
+  .fieldset{background-color: $mainColor}
+  
+  .sectionForm{width: 50%;}
+  .fieldset{padding-bottom: 15px; padding-top: 15px;}
+//   Finaliza Contacto
