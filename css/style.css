@@ -8,14 +8,17 @@ body {
   color: whitesmoke; }
   body main {
     text-align: center;
-    margin: 40px 20px h2;
+    margin: 40px 20px ;
       margin-font-size: 25px; }
+
+.h1Index{padding-top: 20px;}
+.h2Index{ padding-top: 20px;}
 
 .firstImg, .secondImg {
   width: 300px;
-  margin: 2rem 4rem;
   border-style: solid;
-  color: whitesmoke; }
+  color: whitesmoke;
+margin-top:30px; }
 
 .p1, .p2 {
   padding-bottom: 60px;
@@ -80,21 +83,49 @@ body {
 .card-body {
   border-width: 0px; }
 
-.mainContacto {
-  display: inline-flex;
-  padding: 9rem;
-  margin: 0rem;
-  justify-content: center;
-  display: flex;
-  font-weight: bold;
-  background-color: rgba(231, 249, 239, 0.2); }
-
-.fieldset {
-  background-color: whitesmoke; }
-
-.sectionForm {
-  width: 50%; }
-
-.fieldset {
-  padding-bottom: 15px;
-  padding-top: 15px; }
+  .contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    color: #fff;
+    background-image: url('../images/wp5377564-rufus-du-sol-wallpapers.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1em;
+}
+.data-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25em;
+}
+.text-center{
+    text-align: center;
+}
+.data-form label, .data-form input, .data-form textarea{
+    margin: 0.5em;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.data-form input, .data-form textarea{
+    border: 0px solid #fff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.5em;
+    box-shadow: 5px 10px 10px rgba(82, 82, 82, 0.489);
+}
+.btn-enviar{
+    height: 2.5em;
+    padding: 3em;
+    color: #fff;
+    background-color: #000;
+}
+.hr-contact{
+    color: #fff;
+    border: solid 0.5px;
+    width: 90%;
+    margin: 1em 0 1em; 
